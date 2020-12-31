@@ -1,0 +1,265 @@
+/*-- Imports --*/
+
+@import url('https://fonts.googleapis.com/css?family=Caudex');
+@import url('https://fonts.googleapis.com/css?family=Big Shoulders Stencil Display');
+
+/*-- INIT Selectors --*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/backgrounds/field-sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/*-- INIT Identifiers --*/
+
+#copyright {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#fb-ic img {
+    height: 83px;
+    width: 83px;
+    border-radius: 18px;
+}
+
+#footer-social {
+    font-family: Verdana;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 50px;
+    color: #ffffff;
+}
+
+#ig-ic img {
+    border-radius: 18px;
+}
+
+#navbar-label {
+    margin: 0 40px 0 0;
+    font-size: 40px;
+    line-height: 70px;
+    display: none;
+    width: 40px;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+
+#toogle {
+    display: none;
+}
+
+
+/*-- INIT Classes --*/
+
+.BeefMaster-logo {
+    justify-content: center;
+    display: flex;
+}
+
+.BeefMaster-logo img {
+    width: 300px;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color:  #1E2122;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.menu-container-left {
+    
+}
+
+.navbar {
+    border-bottom: 1px solid #EAEAEB;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Caudex';
+    font-size: 26px;
+    height: 70px;
+    line-height: 70px;
+    text-align: right;
+    transition: all 1s;
+}
+
+.navbar:hover {
+    background-color:rgba(43, 114, 173, 0.753);
+}
+
+.navbar-options {
+    margin: 0 30px 0 0;
+}
+
+.navbar-options a{
+    clear: right;
+    text-decoration: none;
+    color: aquamarine;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+.navbar-options a:hover{
+    color: crimson;
+}
+
+.paragraphs {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraphs-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Caudex';
+    font-size: 15px;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.466); 
+    width: 85%;
+    font-style: italic;
+    text-align: center;
+}
+
+.paragraphs-container-left {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.paragraphs-container-left p{
+    margin-bottom: 50px;
+}
+
+.paragraphs-container-right {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: -50px;
+}
+
+.paragraphs-container-right p {
+    margin-bottom: 50px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+.products img {
+    width: 200px;
+    height: 130px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+}
+
+.products-container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitles-container {
+    font-family: 'Big Shoulders Stencil Display';
+	font-size: 50px;
+    color: rgb(228, 215, 215);
+	font-weight: bold;
+    text-align: center;	
+    text-shadow: 5px 10px 10px rgba(255, 0, 0, 0.815);
+    background-color: rgba(0, 0, 0, 0.466); 
+    width: 85%;
+}
+
+/*-- INIT QUerys --*/
+
+@media only screen and (max-width: 500px) {
+
+    #footer-social {
+        font-size: 25px;
+    }
+
+    .contact-delivery img {
+        width: 100px;
+        height: 50px;
+    }
+
+    #navbar-label {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .navbar-options {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 270px;
+        z-index: 1;
+        display: none; 
+        background-color:rgba(43, 114, 173, 0.753);
+    }
+
+    .navbar-options a{
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    
+    #toogle:checked + .navbar-options {
+        display: block;
+    }
+
+    .subtitles-container {
+        font-size: 25px;
+        width: 85%;
+    }
+
+}
