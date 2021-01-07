@@ -377,6 +377,11 @@ body {
 
 @media only screen and (max-width: 767px) {
 
+    body{
+        background-size: 1587px 1340px;
+        -webkit-background-size: 1587px 1340px;
+    }
+
     .slideshow {
         width: 90%;
         left: 10%;
