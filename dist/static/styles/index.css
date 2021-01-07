@@ -315,11 +315,16 @@ body {
 @media only screen and (max-width: 500px) {
 
     body {
-        background-image: url("../images/backgrounds/field-background.jpg");
+        background-image: url("../images/backgrounds/farm-cows.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
+        background-size: 1587px 1340px;
+        -webkit-background-size: 1587px 1340px;
         background-attachment: fixed;
+    }
+
+    .BeefMaster-logo img {
+        width: 320px;
+        height: 210px;
     }
 
     #footer-social {
@@ -378,8 +383,16 @@ body {
 @media only screen and (max-width: 767px) {
 
     body{
-        background-size: 1587px 3140px;
-        -webkit-background-size: 1587px 3140px;
+        background-image: url("../images/backgrounds/farm-cows.jpg");
+        background-repeat: no-repeat;
+        background-size: 1587px 1340px;
+        -webkit-background-size: 1587px 1340px;
+        background-attachment: fixed;
+    }
+
+    .BeefMaster-logo img {
+        width: 320px;
+        height: 210px;
     }
 
     .slideshow {
