@@ -317,6 +317,7 @@ body {
     body {
         background-image: url("../images/backgrounds/farm-cows.jpg");
         background-repeat: no-repeat;
+        background-position: initial;
         background-size: 1587px 1340px;
         -webkit-background-size: 1587px 1340px;
         background-attachment: fixed;
@@ -385,6 +386,7 @@ body {
     body{
         background-image: url("../images/backgrounds/farm-cows.jpg");
         background-repeat: no-repeat;
+        background-position: initial;
         background-size: 1587px 1340px;
         -webkit-background-size: 1587px 1340px;
         background-attachment: fixed;
