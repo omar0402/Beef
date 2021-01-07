@@ -321,6 +321,11 @@ body {
         background-attachment: fixed;
     }
 
+    .BeefMaster-logo img {
+        width: 320px;
+        height: 210px;
+    }
+
     #footer-social {
         font-size: 25px;
     }
@@ -381,6 +386,11 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+    }
+
+    .BeefMaster-logo img {
+        width: 320px;
+        height: 210px;
     }
 
     .slideshow {
